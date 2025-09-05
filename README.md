@@ -17,13 +17,13 @@ A command-line interface tool for managing items on a [Monday.com](https://monda
   ```bash
     git clone &lt;your-repository-url&gt;
     cd monday-claim
-    ```
+  ```
 
 3. **Build the project**:
 
    ```bash
     cargo build --release
-    ```
+   ```
 
 **Configuration**
 
@@ -33,7 +33,7 @@ Create a config.toml file with your [Monday.com](https://monday.com/) API creden
     api_key = "your_monday_api_key_here"
     board_id = "your_board_id_here"
     user_id = "your_user_id_here"
-    ```
+   ```
 
 **Getting API Credentials**
 
